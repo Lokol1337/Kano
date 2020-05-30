@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=cyrillic');
+* {
+	margin: 0;
+	padding: 0;
+}
+main{
+	height: auto;
+}
+a {
+	color:black;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	transition: all.0s ease;
+    -moz-transition: all.0s ease-out;
+    -o-transition: all.0s ease-out;
+	-webkit-transition: all.0s ease-out;
+}
+
+
+a:hover {
+	color: #2F4F4F;
+	text-decoration: none;
+	transition: all.0s ease;
+    -moz-transition: all.0s ease-out;
+    -o-transition: all.0s ease-out;
+	-webkit-transition: all.0s ease-out;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: 110;
+	-moz-transition: all 3s ease-out;
+	-o-transition: all 3s ease-out;
+	-webkit-transition: all 3s ease-out;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: lem 0;
+	padding: 0;
+}
+
+
+header {
+	position: relative;
+	float: left;
+	background-color: #C0C0C0;
+	width:  99.4%;
+	padding: 0.3%;
+	color: aliceblue;
+}
+
+header>div#logo>a {
+	color: 474545;
+}
+
+header>div#logo>a>span {
+	font-size:2.5em;
+	position: absolute;
+	top:35px;
+	left:111px;
+
+}
+
+#logo {
+	float: left;
+	width: 37%;
+}
+
+#about{
+    float: left;
+    width: 25%;
+	text-align: center;
+    font-size: 1.3em;
+    padding-top: 8px;
+}
+#about>a{
+	font-family: 'Montserrat', sans-serif;
+}
+#reg_auth {
+	float: right;
+	width: 13%;
+}
+
+header>div#logo>a>title {
+    top: 60px;
+    left: 230px;
+}
+
+
+#about>a:last-child{
+    margin-left: 8%;
+}
+
+#reg_auth{
+    text-align: right;
+    padding-top: 6px;
+    padding-right: 14px;
+}
+
+#reg_auth>a:last-child{
+    margin-left: 5%;
+}
+
+header>div#reg_auth>a.button{
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .0s;  box-shadow: 0 8px 15px rgba(0,0,0,.1)
+}
+header>div#reg_auth>a:hover {
+   color: burlywood ;
+    box-shadow: 0 0 0 0 rgba(0,40,120,0);
+    background-position: 0 0;
+}
+
+footer{
+	position: absolute;
+	  bottom: 0;
+	  width: 100%;
+	  height: 30px;
+	background-color: #C0C0C0;
+}
